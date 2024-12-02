@@ -885,6 +885,12 @@ main {
   line-height: 1.6;
 }
 
+.timeline-text-list {
+  margin-left: 30px;
+  color: rgb(190, 195, 199);
+  list-style: disc;
+}
+
 /**
      * skills 
      */
