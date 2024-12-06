@@ -298,8 +298,7 @@ article.active {
 .content-card {
   position: relative;
   background: var(--border-gradient-onyx);
-  padding: 15px;
-  padding-top: 45px;
+  padding: 10px;
   border-radius: 14px;
   box-shadow: var(--shadow-2);
   cursor: pointer;
@@ -355,8 +354,8 @@ main {
 
 .info-content .name {
   color: var(--white-2);
-  font-size: var(--fs-3);
-  font-weight: var(--fw-500);
+  font-size: var(--fs-1);
+  font-weight: 800px;
   letter-spacing: -0.25px;
   margin-bottom: 10px;
 }
@@ -961,6 +960,7 @@ ul {
 
 .skill-button:hover {
   background-color: #333;
+  z-index: 0;
 }
 
 .skill-button svg {
@@ -1045,7 +1045,7 @@ ul {
 .project-list {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 30px;
+  gap: 35px;
   margin-bottom: 10px;
 }
 
@@ -1064,7 +1064,7 @@ ul {
   flex-direction: column;
   gap: 10px;
   position: absolute;
-  top: 84%;
+  top: 81%;
   width: 100%;
   color: aliceblue;
   opacity: 0;
@@ -1471,7 +1471,7 @@ textarea.form-input::-webkit-resizer {
        */
 
   main {
-    margin-top: 60px;
+    margin-top: 30px;
     margin-bottom: 100px;
   }
 
@@ -1597,8 +1597,7 @@ textarea.form-input::-webkit-resizer {
   }
 
   .content-card {
-    padding: 30px;
-    padding-top: 25px;
+    padding: 10px;
   }
 
   .testimonials-avatar-box {
@@ -2025,7 +2024,7 @@ textarea.form-input::-webkit-resizer {
 
   .sidebar {
     position: sticky;
-    top: 60px;
+    top: 30px;
     max-height: max-content;
     height: 100%;
     margin-bottom: 0;
