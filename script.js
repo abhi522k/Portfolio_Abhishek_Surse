@@ -167,6 +167,33 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
 const skills = [
   {
+    title: "Tosca",
+    svg: `<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+    <g id="SVGRepo_iconCarrier">
+      <circle cx="32" cy="32" r="28" fill="#00AEEF" />
+      <path d="M32 10a22 22 0 1 0 22 22A22 22 0 0 0 32 10Zm0 40a18 18 0 1 1 18-18A18 18 0 0 1 32 50Z" fill="#E1F5FE"/>
+      <path d="M23 24h18v4H23zM23 34h18v4H23z" fill="#FFFFFF"/>
+      <circle cx="32" cy="32" r="3" fill="#0078D7"/>
+    </g>
+  </svg>`,
+  },
+  {
+    title: "Playwright",
+    svg: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+    <g id="SVGRepo_iconCarrier">
+      <path fill="#FFB300" d="M12 2C8.13401 2 5 5.13401 5 9V13C5 17.4183 8.58172 21 13 21H15C19.4183 21 23 17.4183 23 13V9C23 5.13401 19.866 2 16 2H12Z"></path>
+      <path fill="#F44336" d="M9 3C5.13401 3 2 6.13401 2 10V14C2 18.4183 5.58172 22 10 22H12C16.4183 22 20 18.4183 20 14V10C20 6.13401 16.866 3 13 3H9Z"></path>
+      <path fill="#FFFFFF" d="M8 11C8.55228 11 9 10.5523 9 10C9 9.44772 8.55228 9 8 9C7.44772 9 7 9.44772 7 10C7 10.5523 7.44772 11 8 11Z"></path>
+      <path fill="#FFFFFF" d="M16 11C16.5523 11 17 10.5523 17 10C17 9.44772 16.5523 9 16 9C15.4477 9 15 9.44772 15 10C15 10.5523 15.4477 11 16 11Z"></path>
+      <path fill="#FFFFFF" d="M8 14C8 14 9.5 16 12 16C14.5 16 16 14 16 14"></path>
+    </g>
+  </svg>`,
+  },
+  {
     title: "React",
     svg: `<svg viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>

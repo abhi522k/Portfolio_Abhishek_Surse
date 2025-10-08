@@ -575,6 +575,12 @@ main {
   margin: auto;
 }
 
+.service-icon-box ion-icon {
+  font-size: 40px;
+  color: var(--orange-yellow-crayola);
+  margin: auto;
+}
+
 .service-content-box {
   text-align: center;
 }
